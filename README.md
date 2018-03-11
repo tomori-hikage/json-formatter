@@ -12,9 +12,6 @@ json-formatterはJSONのフォーマットクラスです
 
 ```csharp
 using UnityEngine;
-#if UNITY_EDITOR
-using UnityEditor;
-#endif
 using System;
 using System.IO;
 using HC.Common;
@@ -72,12 +69,12 @@ namespace HC
 }
 ```
 
-```json:MinifyPrint
+```json
 MinifyPrint: 
 {"characters":[{"id":1,"name":"武闘家","EquipWeaponTypes":["片手剣","両手剣","槍","斧"],"hp":140,"mp":40,"power":80,"intelligence":20,"agility":14.0},{"id":2,"name":"遊び人","EquipWeaponTypes":[],"hp":60,"mp":0,"power":20,"intelligence":80,"agility":8.0}]}
 ```
 
-```json:PrettyPrint
+```json
 PrettyPrint: 
 {
     "characters": [
