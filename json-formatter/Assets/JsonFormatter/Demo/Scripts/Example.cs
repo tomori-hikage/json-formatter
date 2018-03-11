@@ -1,7 +1,4 @@
 ﻿using UnityEngine;
-#if UNITY_EDITOR
-using UnityEditor;
-#endif
 using System;
 using System.IO;
 using HC.Common;
