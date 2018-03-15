@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 
 
 namespace HC.Common
@@ -154,6 +155,7 @@ namespace HC.Common
         /// <returns>最小限に整形したJSON</returns>
         public static string ToMinifyPrint(string json)
         {
+            json = Regex.Unescape(json);
             return new[] { Environment.NewLine, "\t", " " }.Aggregate(json, (current, oldValue) => current.Replace(oldValue, string.Empty));
         }
     }
