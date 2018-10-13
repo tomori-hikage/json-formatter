@@ -6,7 +6,7 @@ json-formatterはJSONのフォーマットクラスです
 
 ## Install
 
-[release](https://github.com/tomoriaki/json-formatter/releases)からjson-formatter.unitypackageをダウンロードしてプロジェクトにインポートしてください
+[releases](https://github.com/tomoriaki/json-formatter/releases)からjson-formatter.unitypackageをダウンロードしてプロジェクトにインポートしてください
 
 ## Example
 
