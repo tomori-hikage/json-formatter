@@ -106,8 +106,9 @@ PrettyPrint:
 
 ## Author
 
-Twitter: [@tomori_hikage](https://twitter.com/tomori_hikage)  
-Qiita: [@tomori_hikage](https://qiita.com/tomori_hikage)
+GitHub: [tomori-hikage](https://github.com/tomori-hikage)  
+Qiita: [@tomori_hikage](https://qiita.com/tomori_hikage)  
+Twitter: [@tomori_hikage](https://twitter.com/tomori_hikage)
 
 ## Distribution License
 
